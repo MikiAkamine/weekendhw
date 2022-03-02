@@ -1,4 +1,13 @@
 header {
-  width: 100v;
+  width: 100vh;
+  height: 100px;
+}
+
+.header-right {
+  width: 50%;
+}
+
+.header-left {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
