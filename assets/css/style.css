@@ -21,7 +21,7 @@ header {
 .header-right {
   width: 60%;
   height: 100%;
-  background-image: url("../img/header.jpeg");
+  background-image: url("../../header01.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -54,8 +54,6 @@ header {
   padding-right: 10%;
 }
 
-<<<<<<< HEAD
-=======
 .section1 {
   margin-top: 10%;
   margin-bottom: 10%;
@@ -75,7 +73,6 @@ header {
   padding-bottom: 5%;
 }
 
->>>>>>> 5523c51147ea6822b848b12d622d3b7d46f7fab4
 /* スライダー */
 /* スライダー終わり */
 footer {
