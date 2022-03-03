@@ -49,10 +49,6 @@ header {
   font-size: 20px;
 }
 
-.header-left .ours #otani {
-  padding-right: 10%;
-}
-
 main img:hover {
   opacity: 0.5;
 }
