@@ -49,8 +49,8 @@ header {
   font-size: 20px;
 }
 
-.header-left .ours #otani {
-  padding-right: 10%;
+main img:hover {
+  opacity: 0.5;
 }
 
 .section1 {
@@ -72,21 +72,17 @@ header {
   padding-bottom: 5%;
 }
 
-main img:hover {
-  opacity: 0.5;
-}
-
 footer {
   text-align: center;
-  background-color: rgba(127, 255, 212, 0.213);
+  background-color: rgba(171, 253, 226, 0.213);
 }
 
 footer button {
-  background-color: rgba(0, 255, 255, 0.44);
-  border: solid #01d1d1;
+  background-color: rgba(122, 236, 236, 0.44);
   border-radius: 10px;
   padding: 10px 15px;
   margin: 2%;
+  font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 footer button:hover {
