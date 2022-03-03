@@ -1,4 +1,55 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'BhuTuka Expanded One', cursive;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 header {
-  width: 100v;
+  width: 100vw;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-right {
+  width: 60%;
+  height: 100%;
+  background-image: url("../img/header.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-left {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-left .main-title {
+  font-size: 100px;
+  margin-top: 40%;
+  margin-bottom: 15%;
+}
+
+.header-left .ours {
+  font-size: 20px;
+}
+
+.header-left .ours #otani {
+  padding-right: 10%;
 }
 /*# sourceMappingURL=style.css.map */
