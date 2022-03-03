@@ -21,7 +21,7 @@ header {
 .header-right {
   width: 60%;
   height: 100%;
-  background-image: url("../img/header.jpeg");
+  background-image: url("../../header01.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,6 +53,7 @@ header {
 .header-left .ours #otani {
   padding-right: 10%;
 }
+
 .section1 {
   margin-top: 10%;
   margin-bottom: 10%;
