@@ -31,4 +31,14 @@ section div {
   padding-left: 10%;
   height: 400px;
 }
+
+.iframeFlex {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.iframeFlex h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
 /*# sourceMappingURL=link.css.map */
