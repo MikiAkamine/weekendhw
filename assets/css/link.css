@@ -29,4 +29,14 @@ section div {
 .pic-left img {
   padding-left: 10%;
 }
+
+.iframeFlex {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.iframeFlex h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
 /*# sourceMappingURL=link.css.map */

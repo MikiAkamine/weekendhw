@@ -2,6 +2,7 @@ body{
     background-color: rgba(83, 237, 83, 0.159);
     padding: 0 10%;
 }
+
 $pad: 10%;
 section{
     margin: 5% 0;
@@ -12,6 +13,7 @@ section{
         align-items: center;
     }        
 }
+
 .pic-right{
     img{
     padding-right: $pad;
@@ -21,5 +23,15 @@ section{
 .pic-left{
     img{
         padding-left: $pad;
+    }
+}
+
+.iframeFlex{
+    text-align: center;
+    margin-bottom: 5%;
+
+    h2{
+        margin-bottom: 10px;
+        font-size: 1.5rem;
     }
 }
