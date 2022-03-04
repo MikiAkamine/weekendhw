@@ -24,9 +24,11 @@ section div {
 
 .pic-right img {
   padding-right: 10%;
+  height: 400px;
 }
 
 .pic-left img {
   padding-left: 10%;
+  height: 400px;
 }
 /*# sourceMappingURL=link.css.map */
