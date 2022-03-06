@@ -19,12 +19,18 @@ section{
     padding-right: $pad;
     height: 400px;
     }
+    p{
+        line-height: 1.5rem;
+    }
 }
 
 .pic-left{
     img{
         padding-left: $pad;
         height: 400px;
+    }
+    p{
+        line-height: 1.5rem;
     }
 }
 
@@ -35,5 +41,29 @@ section{
     h2{
         margin-bottom: 10px;
         font-size: 1.5rem;
+    }
+}
+
+// メインページに戻るボタン　スクロールでボタンが出てくる
+.btnFlex.hide{
+    opacity: 0;
+}
+
+.btnFlex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    transition: all 3s ease;
+
+    button{
+        border: none;
+        background-color: rgba(83, 237, 83, 0.378);
+        font-size: 1.2rem;
+        border-radius: 10px;
+
+        a{
+            text-decoration: none;
+            color: rgb(61, 56, 56);
+        }
     }
 }
