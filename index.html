@@ -24,77 +24,106 @@
 </head>
 
 <body>
-    <!-- ロード画面 -->
-     <div id="splash">
-        <div id="splash_logo">
-          <img src="./assets/img/otani/loadimg.gif " alt="" class="fadeUp">
-        </div>
-      </div>
 
-    <header>
-        <header class="header-left">
-            <div class="main-title">our favorite places</div>
-            <div class="ours">
-                <a href="#otani" class="otani">Otani's</a>
-                <a href="#akamine" class="akamine">Akamine's</a>
+    <!-- メニュー -->
+
+    <div class="openbtn1"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+        <div id="g-nav-list">
+            <!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+            <ul>
+                <li><a href="#container">Top</a></li>
+                <li><a href="#otani">Otani's</a></li>
+                <li><a href="#akamine">Akamine's</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
+            </ul>
+        </div>
+    </nav>
+    </div>
+
+    <div id="container">
+        <!-- メニュー終わり -->
+
+        <!-- ロード画面 -->
+        <div id="splash">
+            <div id="splash_logo">
+                <img src="./assets/img/otani/mainpage_img/loadimg.gif " alt="" class="fadeUp">
             </div>
+        </div>
+        <!-- ロード画面終わり -->
+        <header>
+            <header class="header-left">
+                <div class="main-title">our favorite places</div>
+                <div class="ours">
+                    <a href="#otani" class="otani">Otani's</a>
+                    <a href="#akamine" class="akamine">Akamine's</a>
+                </div>
+            </header>
+            <header class="header-right"></header>
         </header>
-        <header class="header-right"></header>
-    </header>
-    <main>
-        <!-- 大谷セクション -->
-        <div class="section1">
-            <h2 id="otani">Otani's</h2>
-            <!-- slider -->
-            <ul class="slider">
-                <a href="./otani01.html" target="_blank">
-                    <li><img src="./assets/img/otani/IMG_0570.jpeg" alt=""></li>
-                </a>
-                <a href="./otani02.html" target="_blank">
-                    <li><img src="./assets/img/otani/IMG_1378.jpeg" alt=""></li>
-                </a>
-                <a href="./otani03.html" target="_blank">
-                    <li><img src="./assets/img/otani/IMG_1731.jpeg" alt=""></li>
-                </a>
-                <a href="./otani04.html" target="_blank">
-                    <li><img src="./assets/img/otani/IMG_1850.jpeg" alt=""></li>
-                </a>
-            </ul>
-        </div>
-        <!-- slider終わり -->
-        <!-- 赤嶺セクション -->
-        <div class="section2">
-            <h2 id="akamine">Akamine's</h2>
-            <!-- slider -->
-            <ul class="slider">
-                <a href="./akamine01.html" target="_blank">
-                    <li><img src="./assets/img/akamine/101/01.jpeg" alt=""></li>
-                </a>
-                <a href="./akamine02.html" target="_blank">
-                    <li><img src="./assets/img/akamine/katsu/02.jpeg" alt=""></li>
-                </a>
-                <a href="./akamine03.html" target="_blank">
-                    <li><img src="./assets/img/akamine/zamami/01.jpg" alt=""></li>
-                </a>
-                <a href="./akamine04.html" target="_blank">
-                    <li><img src="./assets/img/akamine/penghu/01.JPG" alt=""></li>
-                </a>
-            </ul>
-        </div>
-    </main>
-    <footer>
-        <button>TOPに戻る</button>
-        <p>Pair work</p>
+        <main>
+            <!-- 大谷セクション -->
+            <div class="section1">
+                <h2 id="otani">Otani's</h2>
+                <!-- slider -->
+                <ul class="slider">
+                    <!-- <a href="./otani01.html" target="_blank"> -->
+                    <li> <a href="./otani01.html" target="_blank"><img
+                                src="./assets/img/otani/mainpage_img/IMG_0570.jpeg" alt=""></a></li>
+                    <!-- </a> -->
 
-    </footer>
-    <!-- スライド -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/js/6-1-7.js"></script>
+                    <li> <a href="./otani02.html" target="_blank"><img
+                                src="./assets/img/otani/mainpage_img/IMG_1378.jpeg" alt=""></a></li>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./assets/css/script.js"></script>
+                    >
+                    <li> <a href="./otani03.html" target="_blank"><img
+                                src="./assets/img/otani/mainpage_img/IMG_1731.jpeg" alt=""></a></li>
+
+
+                    <li> <a href="./otani04.html" target="_blank"><img
+                                src="./assets/img/otani/mainpage_img/IMG_1850.jpeg" alt=""> </a></li>
+
+                </ul>
+            </div>
+            <!-- slider終わり -->
+            <!-- 赤嶺セクション -->
+            <div class="section2">
+                <h2 id="akamine">Akamine's</h2>
+                <!-- slider -->
+                <ul class="slider">
+
+                    <li><a href="./akamine01.html" target="_blank"><img src="./assets/img/akamine/101/01.jpeg" alt="">
+                        </a></li>
+
+
+                    <li><a href="./akamine02.html" target="_blank"><img src="./assets/img/akamine/katsu/02.jpeg" alt="">
+                        </a></li>
+
+
+                    <li> <a href="./akamine03.html" target="_blank"><img src="./assets/img/akamine/zamami/01.jpg"
+                                alt=""></a></li>
+
+
+                    <li><a href="./akamine04.html" target="_blank"><img src="./assets/img/akamine/penghu/01.JPG" alt="">
+                        </a></li>
+
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <button>TOPに戻る</button>
+            <p>Pair work</p>
+
+        </footer>
+        <!-- スライド -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/js/6-1-7.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./assets/css/script.js"></script>
+    </div>
 </body>
 
 </html>
